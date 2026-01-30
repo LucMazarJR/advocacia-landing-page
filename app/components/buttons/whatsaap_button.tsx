@@ -6,7 +6,7 @@ export default function WhatsappButton() {
             href={
                 'https://wa.me/5516982020132?text=Olá!%20Estou%20falando%20com%20Luciano%20Mazarão%20advogado%3F'
             }
-            className="text-accent flex gap-2 border rounded-lg bg-header-secundary p-2 px-6"
+            className="text-accent bg-header-secundary flex gap-2 rounded-lg border p-2 px-6"
         >
             <div className="relative aspect-square w-[1.5em]">
                 <Image src={'/icons/whatsapp.png'} alt={'whatsapp-icon'} fill />

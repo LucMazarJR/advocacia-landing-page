@@ -3,6 +3,7 @@
 :root {
     --deep-blue-1: #282d3d;
     --deep-blue-2: #25232e;
+    --clear-white: #f0f0f5;
     --golden: #b8a88a;
 
     --background: #ffffff;
@@ -14,6 +15,7 @@
     --color-foreground: var(--foreground);
     --color-header-primary: var(--deep-blue-1);
     --color-header-secundary: var(--deep-blue-2);
+    --color-header-text-primary: var(--clear-white);
     --color-accent: var(--golden);
 
     --font-sans: var(--font-geist-sans);
