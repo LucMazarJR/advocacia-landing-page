@@ -14,7 +14,7 @@ export default function DashboardLayout({
     children: React.ReactNode
 }) {
     return (
-        <html lang="en">
+        <html>
             <body>
                 <Header />
                 <main>{children}</main>
