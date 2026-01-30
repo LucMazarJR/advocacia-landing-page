@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
-        <div>
+        <footer className="fixed bottom-0">
             
-        </div>
+        </footer>
     )
 }

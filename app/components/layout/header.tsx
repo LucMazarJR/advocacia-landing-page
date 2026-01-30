@@ -1,7 +1,7 @@
 export default function Header() {
     return (
-        <header>
-            
+        <header className="fixed top-0 w-full bg-header">
+            a
         </header>
     )
 }
