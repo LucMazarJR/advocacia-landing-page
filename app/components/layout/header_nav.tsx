@@ -23,7 +23,7 @@ function NavElement(props: navItem) {
 
 export default function HeaderNav() {
     return (
-        <nav className="flex gap-2">
+        <nav className="flex gap-8">
             {NAV_ITEMS.map((item) => (
                 <NavElement {...item} key={item.href} />
             ))}
