@@ -1,13 +1,13 @@
 import type { Metadata } from 'next'
-import { Playfair_Display, Inter } from 'next/font/google'
+import { Cinzel, Inter } from 'next/font/google'
 import './globals.css'
 import Header from './components/layout/header'
 import Footer from './components/layout/footer'
 
-const playfair = Playfair_Display({ 
+const cinzel = Cinzel({ 
     subsets: ['latin'], 
     weight: ['600', '700'],
-    variable: '--font-playfair'
+    variable: '--font-cinzel'
 })
 
 const inter = Inter({ 
@@ -27,8 +27,8 @@ export default function DashboardLayout({
     children: React.ReactNode
 }) {
     return (
-        <html className={`${playfair.variable} ${inter.variable}`}>
-            <body className="font-inter">
+        <html className={`${cinzel.variable} ${inter.variable}`}>
+            <body>
                 <Header />
                 <main>{children}</main>
                 <Footer />
