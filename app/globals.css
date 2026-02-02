@@ -4,11 +4,13 @@
     --deep-blue-1: #282d3d;
     --deep-blue-2: #25232e;
     --clear-white: #f0f0f5;
+    --light-offwhite: #e6dedc;
+    --deep-offwhite: #c1b5b7;
     --golden1: #b8a88a;
     --golden2: #dfbe73;
 
     --background: #ffffff;
-    --foreground: #171717;
+    --foreground: #181923;
 }
 
 @theme inline {
@@ -19,6 +21,8 @@
     --color-header-text-primary: var(--clear-white);
     --color-accent-primary: var(--golden1);
     --color-accent-secundary: var(--golden2);
+    --color-hero-gradient-primary: var(--deep-offwhite);
+    --color-hero-gradient-secundary: var(--clear-white);
 
     --font-cinzel: var(--font-cinzel);
     --font-inter: var(--font-inter);
