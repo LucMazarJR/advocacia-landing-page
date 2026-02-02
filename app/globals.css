@@ -5,7 +5,7 @@
     --deep-blue-2: #25232e;
     --clear-white: #f0f0f5;
     --light-offwhite: #e6dedc;
-    --deep-offwhite: #c1b5b7;
+    --deep-offwhite: #d0c6c7;
     --golden1: #b8a88a;
     --golden2: #dfbe73;
 
@@ -22,7 +22,7 @@
     --color-accent-primary: var(--golden1);
     --color-accent-secundary: var(--golden2);
     --color-hero-gradient-primary: var(--deep-offwhite);
-    --color-hero-gradient-secundary: var(--clear-white);
+    --color-hero-gradient-secundary: var(--light-offwhite);
 
     --font-cinzel: var(--font-cinzel);
     --font-inter: var(--font-inter);
