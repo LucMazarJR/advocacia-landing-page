@@ -4,14 +4,14 @@ import './globals.css'
 import Header from './components/layout/header'
 import Footer from './components/layout/footer'
 
-const cinzel = Cinzel({ 
-    subsets: ['latin'], 
+const cinzel = Cinzel({
+    subsets: ['latin'],
     weight: ['600', '700'],
     variable: '--font-cinzel'
 })
 
-const inter = Inter({ 
-    subsets: ['latin'], 
+const inter = Inter({
+    subsets: ['latin'],
     weight: ['400', '500', '600'],
     variable: '--font-inter'
 })
@@ -28,9 +28,9 @@ export default function DashboardLayout({
 }) {
     return (
         <html className={`${cinzel.variable} ${inter.variable}`}>
-            <body>
+            <body className="bg-background font-inter text-foreground">
                 <Header />
-                <main>{children}</main>
+                <main className="pt-24">{children}</main>
                 <Footer />
             </body>
         </html>

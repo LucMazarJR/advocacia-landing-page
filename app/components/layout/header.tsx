@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function Header() {
     return (
-        <header className="bg-header-primary fixed top-0 flex w-full items-center justify-between p-5 px-8 h-24">
+        <header className="bg-header-primary/95 fixed top-0 z-50 flex h-24 w-full items-center justify-between border-b border-white/10 px-8 backdrop-blur">
             <div className="flex gap-4 items-center">
                 <Image src={"/logo.png"} width={70} height={70} alt='logo-advocacia-mazarao'></Image>
                 <div className='text-accent-secundary'>
