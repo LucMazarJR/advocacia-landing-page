@@ -6,11 +6,11 @@ interface navItem {
 }
 
 const NAV_ITEMS: navItem[] = [
-    { children: 'INICIO', href: '#inicio' },
-    { children: 'SOBRE', href: '#sobre' },
-    { children: 'ESPECIALIDADES', href: '#especialidades' },
-    { children: 'SERVICOS', href: '#servicos' },
-    { children: 'CONTATO', href: '#contato' },
+    { children: 'INICIO', href: '/#inicio' },
+    { children: 'SOBRE', href: '/#sobre' },
+    { children: 'ESPECIALIDADES', href: '/#especialidades' },
+    { children: 'SERVICOS', href: '/#servicos' },
+    { children: 'CONTATO', href: '/#contato' },
 ]
 
 function NavElement(props: navItem) {
