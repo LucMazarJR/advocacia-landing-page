@@ -91,9 +91,9 @@ export default function About() {
                         href="/#contato"
                         className="inline-flex rounded-md bg-header-primary px-6 py-3 text-xs font-semibold uppercase tracking-[0.2em] text-accent-secundary"
                     >
-                        Agendar atendimento
+                        Entrar em contato
                     </Link>
-                    <span className="text-xs uppercase tracking-[0.3em] text-foreground/60">
+                    <span className="text-[10px] uppercase tracking-[0.3em] text-foreground/60">
                         Respostas rapidas e atendimento personalizado
                     </span>
                 </div>
