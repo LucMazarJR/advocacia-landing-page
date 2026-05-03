@@ -36,9 +36,9 @@ export default function About() {
                             cliente.
                         </p>
                         <p>
-                            Sob a direção do Dr. Luciano Neves Mazarão, OAB/SP nº 412.077, o
-                            escritório atua com foco em inventários, regularização imobiliária,
-                            questões familiares e consultoria preventiva.
+                            Sob a direção do Dr. Luciano Neves Mazarão, OAB/SP nº 412.077 e
+                            OAB/MG nº 238.571, o escritório atua com foco em inventários,
+                            regularização imobiliária, questões familiares e consultoria preventiva.
                         </p>
                     </div>
                     <div className="flex flex-wrap gap-2">

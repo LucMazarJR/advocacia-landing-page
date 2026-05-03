@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const PARAGRAPHS = [
     'O escritório Luciano Mazarão Advocacia destaca-se pela atuação estratégica, ética e altamente qualificada na prestação de serviços jurídicos, oferecendo soluções seguras, personalizadas e alinhadas às necessidades de cada cliente.',
-    'Sob a direção do Dr. Luciano Neves Mazarão, advogado inscrito na OAB/SP nº 412.077, o escritório possui sólida atuação nas áreas de Direito Sucessório, Direito Imobiliário e Direito de Família, além de consultoria jurídica especializada, com foco na prevenção de riscos e na proteção patrimonial.',
+    'Sob a direção do Dr. Luciano Neves Mazarão, advogado inscrito na OAB/SP nº 412.077 e OAB/MG nº 238.571, o escritório possui sólida atuação nas áreas de Direito Sucessório, Direito Imobiliário e Direito de Família, além de consultoria jurídica especializada, com foco na prevenção de riscos e na proteção patrimonial.',
     'Dentre suas principais frentes de atuação, destacam-se a condução de inventários judiciais e extrajudiciais, planejamento sucessório, regularização de imóveis, demandas possessórias e questões familiares, sempre com abordagem técnica apurada e comprometida com a eficiência e segurança jurídica.',
     'O escritório Luciano Mazarão Advocacia adota uma metodologia baseada na análise criteriosa e individualizada de cada caso, buscando não apenas a resolução eficaz de conflitos, mas também a estruturação jurídica preventiva, evitando litígios e assegurando estabilidade às relações jurídicas e patrimoniais de seus clientes.',
     'Com atendimento próximo e humanizado, o escritório preza pela clareza na comunicação e pela condução responsável de cada demanda, garantindo confiança, transparência e excelência em todas as etapas.',
