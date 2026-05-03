@@ -34,11 +34,8 @@ export default function Hero() {
                         <span>Atendimento personalizado</span>
                     </div>
                 </div>
-                <div className="relative">
-                    <div className="absolute -right-10 top-8 h-24 w-24 rounded-full border border-header-primary/15" />
-                    <div className="relative aspect-square w-full backdrop-blur bg-none">
-                        <Image alt='luciano-advogado' src={"/images/luciano-perfil.jpeg"} fill className='rounded-[28px] shadow-[0_30px_60px_rgba(24,25,35,0.15)]'></Image>
-                    </div>
+                <div className="aspect-square w-full backdrop-blur bg-none">
+                    <Image alt='luciano-advogado' src={"/images/luciano-perfil.jpeg"} fill className='rounded-[28px] shadow-[0_30px_60px_rgba(24,25,35,0.15)]'></Image>
                 </div>
             </div>
         </section>
