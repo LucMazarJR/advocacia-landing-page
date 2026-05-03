@@ -1,50 +1,68 @@
-const SERVICES = [
+import { DynamicIcon, type IconName } from 'lucide-react/dynamic';
+
+type ServiceItem = {
+    title: string
+    icon: IconName
+    description: string
+}
+
+const SERVICES: ServiceItem[] = [
     {
-        title: 'Direito Civil',
+        title: 'Direito Sucessório',
+        icon: 'scroll',
         description:
-            'Atuacao em familia, contratos, responsabilidade civil e solucoes preventivas.',
+            'Planejamento e regularização de herança, inventários e partilhas com orientação clara.',
     },
     {
-        title: 'Direito Trabalhista',
+        title: 'Direito Imobiliário',
+        icon: 'home',
         description:
-            'Defesa estrategica para trabalhadores e empresas em demandas trabalhistas.',
+            'Análise de contratos, compra e venda, locações e regularização de imóveis.',
     },
     {
-        title: 'Direito Penal',
+        title: 'Direito Possessório',
+        icon: 'shield',
         description:
-            'Atendimento em processos criminais, inqueritos e medidas urgentes.',
+            'Ações de reintegração, manutenção e interdito com foco na segurança da posse.',
     },
     {
-        title: 'Direito Empresarial',
+        title: 'Direito de Família',
+        icon: 'users',
         description:
-            'Apoio juridico a empresas, contratos societarios e recuperacao de credito.',
+            'Divórcios, guardas, pensões e acordos familiares com atendimento humanizado.',
+    },
+    {
+        title: 'Consultoria Jurídica',
+        icon: 'scale',
+        description:
+            'Consultoria preventiva, análise de riscos e orientação estratégica recorrente.',
     },
 ]
 
 export default function Services() {
     return (
         <section id="servicos" className="bg-header-primary text-header-text-primary">
-            <div className="mx-auto max-w-6xl px-6 py-20">
+            <div className="mx-auto max-w-368 px-6 py-20">
                 <div className="text-center">
                     <span className="text-xs font-semibold uppercase tracking-[0.4em] text-accent-secundary">
-                        Servicos
+                        Serviços
                     </span>
                     <h2 className="mt-3 font-cinzel text-3xl md:text-4xl">
-                        Principais areas de atuacao
+                        Principais áreas de atuação
                     </h2>
-                    <p className="mx-auto mt-4 max-w-2xl text-sm text-header-text-primary/70">
-                        Estrutura de cards pronta para voce inserir descricoes completas e
-                        diferenciar cada especialidade.
+                    <p className="mx-auto mt-4 max-w-3xl text-sm text-header-text-primary/70">
+                        Atuação focada em soluções claras e eficientes, com atendimento
+                        personalizado em cada especialidade.
                     </p>
                 </div>
-                <div className="mt-12 grid gap-6 md:grid-cols-4">
+                <div className="mt-12 grid gap-6 md:grid-cols-5">
                     {SERVICES.map((service) => (
                         <div
                             key={service.title}
                             className="rounded-2xl border border-white/10 bg-header-secundary/60 p-6 shadow-[0_20px_40px_rgba(0,0,0,0.2)]"
                         >
                             <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full border border-white/15 text-xs text-accent-secundary">
-                                Icone
+                                <DynamicIcon name={service.icon} className="h-5 w-5" />
                             </div>
                             <h3 className="font-cinzel text-lg">{service.title}</h3>
                             <p className="mt-3 text-sm text-header-text-primary/70">
