@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Footer() {
     return (
         <footer className="mt-20 bg-header-primary text-header-text-primary">
@@ -26,24 +28,27 @@ export default function Footer() {
                 </div>
                 <div className="space-y-3 text-sm">
                     <p className="font-semibold tracking-[0.2em] text-accent-secundary">ATENDIMENTO</p>
-                    <p className="text-header-text-primary/70">Seg. a Sex.: 08:00 - 18:00</p>
-                    <p className="text-header-text-primary/70">Sábado: 08:00 - 12:00</p>
+                    <p className="text-header-text-primary/70">Seg. a Sex.: 08:00 - 17:00</p>
                     <p className="text-header-text-primary/70">Franca/SP</p>
                 </div>
                 <div className="space-y-3 text-sm">
                     <p className="font-semibold tracking-[0.2em] text-accent-secundary">CONTATO</p>
                     <p className="text-header-text-primary/70">(16) 98202-0132</p>
-                    <p className="text-header-text-primary/70">contato@mazaraoadvocacia.com.br</p>
+                    <p className="text-header-text-primary/70">mazarao@uol.com.br</p>
                     <div className="flex justify-center gap-3 pt-2 sm:justify-start">
-                        <span className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 text-xs">
-                            IG
-                        </span>
-                        <span className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 text-xs">
-                            FB
-                        </span>
-                        <span className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 text-xs">
-                            IN
-                        </span>
+                        <a
+                            className="relative flex h-9 w-9 items-center justify-center rounded-md border border-white/10 bg-header-secundary text-accent-primary transition hover:border-accent-secundary/50 hover:bg-header-secundary/90"
+                            href="https://www.facebook.com/lucianomazaraoadvogado/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <Image
+                                src="/icons/facebook.svg"
+                                alt="Facebook"
+                                fill
+                                className="p-2 object-contain brightness-0 invert opacity-80"
+                            />
+                        </a>
                     </div>
                 </div>
             </div>
