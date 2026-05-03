@@ -11,7 +11,7 @@ export default function Hero() {
                         Advocacia estratégica
                     </span>
                     <h1 className="font-cinzel text-3xl leading-tight sm:text-4xl lg:text-5xl">
-                        Defendendo seus direitos com excelencia
+                        Defendendo seus direitos com excelência
                     </h1>
                     <p className="max-w-xl text-sm text-foreground/70 sm:text-base">
                         Atuação especializada em Direito Sucessório, Imobiliário, de Família e Consultoria Jurídica, oferecendo suporte completo para proteção patrimonial e resolução eficiente de conflitos.

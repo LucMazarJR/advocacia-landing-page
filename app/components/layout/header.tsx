@@ -19,7 +19,7 @@ export default function Header() {
                         MAZARÃO
                     </h1>
                     <h2 className="font-inter text-[10px] font-light tracking-[0.18em] sm:text-xs sm:tracking-[0.22em] lg:text-sm">
-                        ADVOCACIA & CONSULTORIA JURIDICA
+                        ADVOCACIA & CONSULTORIA JURÍDICA
                     </h2>
                 </div>
             </Link>

@@ -30,13 +30,13 @@ export default function About() {
             <div className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
                 <header className="max-w-3xl">
                     <span className="text-xs font-semibold uppercase tracking-[0.4em] text-accent-primary">
-                        Sobre o escritorio
+                        Sobre o escritório
                     </span>
                     <h1 className="mt-4 font-cinzel text-3xl text-header-primary sm:text-4xl md:text-5xl">
                         Mazarão Advocacia
                     </h1>
                     <p className="mt-4 text-sm text-foreground/70 sm:text-base">
-                        Atuacao estrategica e personalizada para proteger direitos e
+                        Atuação estratégica e personalizada para proteger direitos e
                         patrimônios com segurança e clareza.
                     </p>
                 </header>
@@ -50,7 +50,7 @@ export default function About() {
                     <aside className="hidden space-y-6 md:block">
                         <div className="rounded-2xl border border-header-primary/10 bg-white/80 p-6 shadow-[0_20px_40px_rgba(24,25,35,0.1)]">
                             <h2 className="font-cinzel text-xl text-header-primary">
-                                Areas de atuacao
+                                Áreas de atuação
                             </h2>
                             <div className="mt-4 flex flex-wrap gap-2">
                                 {PRACTICE_AREAS.map((area) => (
@@ -79,8 +79,8 @@ export default function About() {
                         <div className="rounded-2xl border border-header-primary/10 bg-header-primary/95 p-6 text-header-text-primary shadow-[0_20px_40px_rgba(24,25,35,0.18)]">
                             <h2 className="font-cinzel text-xl">Atendimento humanizado</h2>
                             <p className="mt-3 text-sm text-header-text-primary/80">
-                                Comunicacao clara, acompanhamento responsavel e foco em
-                                solucoes seguras para cada etapa da jornada.
+                                Comunicação clara, acompanhamento responsável e foco em
+                                soluções seguras para cada etapa da jornada.
                             </p>
                         </div>
                     </aside>
@@ -94,7 +94,7 @@ export default function About() {
                         Entrar em contato
                     </Link>
                     <span className="text-[10px] uppercase tracking-[0.3em] text-foreground/60">
-                        Respostas rapidas e atendimento personalizado
+                        Respostas rápidas e atendimento personalizado
                     </span>
                 </div>
             </div>

@@ -63,7 +63,7 @@ export default function About() {
                         href="/sobre"
                         className="inline-flex rounded-md bg-header-primary px-6 py-3 text-xs font-semibold uppercase tracking-[0.2em] text-accent-secundary sm:text-sm"
                     >
-                        Conheca o escritorio
+                        Conheça o escritório
                     </Link>
                 </div>
             </div>

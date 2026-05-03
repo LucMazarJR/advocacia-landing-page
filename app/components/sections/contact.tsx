@@ -41,7 +41,7 @@ export default function Contact() {
 
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
         if (!emailRegex.test(email)) {
-            return 'Informe um e-mail valido para contato.'
+            return 'Informe um e-mail válido para contato.'
         }
 
         const phoneDigits = phone.replace(/\D/g, '')
@@ -75,7 +75,7 @@ export default function Contact() {
             setMessage('Mensagem enviada com sucesso. Em breve entraremos em contato.')
         } catch {
             setMessageType('error')
-            setMessage('Nao foi possivel enviar sua mensagem agora. Tente novamente em instantes.')
+            setMessage('Não foi possível enviar sua mensagem agora. Tente novamente em instantes.')
         } finally {
             setIsSending(false)
         }
@@ -95,8 +95,8 @@ export default function Contact() {
                         Entre em contato conosco
                     </h2>
                     <p className="mx-auto mt-4 max-w-2xl text-xs text-foreground/70 sm:text-sm">
-                        Estrutura pronta para formulario e mapa. Basta conectar o envio e
-                        adicionar seu endereco.
+                        Atendimento presencial e online, com retorno rápido. Preencha o
+                        formulário e nossa equipe responde em até 1 dia útil.
                     </p>
                 </div>
                 <div className="mt-12 grid gap-6 sm:gap-8 lg:grid-cols-[1.1fr_0.9fr]">
@@ -110,7 +110,7 @@ export default function Contact() {
                                 <input
                                     name="name"
                                     type="text"
-                                    placeholder="Seu nome completo"
+                                    placeholder="Ex: Maria Souza"
                                     className="mt-2 w-full rounded-md border border-white/10 bg-header-secundary/70 px-4 py-3 text-sm tracking-normal text-header-text-primary placeholder:text-header-text-primary/40"
                                     required
                                 />
@@ -120,7 +120,7 @@ export default function Contact() {
                                 <input
                                     name="email"
                                     type="email"
-                                    placeholder="seuemail@dominio.com"
+                                    placeholder="Ex: maria@empresa.com.br"
                                     className="mt-2 w-full rounded-md border border-white/10 bg-header-secundary/70 px-4 py-3 text-sm tracking-normal text-header-text-primary placeholder:text-header-text-primary/40"
                                     required
                                 />
@@ -131,7 +131,7 @@ export default function Contact() {
                                     name="phone"
                                     type="tel"
                                     inputMode="tel"
-                                    placeholder="(00) 00000-0000"
+                                    placeholder="Ex: (16) 90000-0000"
                                     className="mt-2 w-full rounded-md border border-white/10 bg-header-secundary/70 px-4 py-3 text-sm tracking-normal text-header-text-primary placeholder:text-header-text-primary/40"
                                     value={phoneValue}
                                     onChange={handlePhoneChange}
@@ -143,7 +143,7 @@ export default function Contact() {
                                 <textarea
                                     name="message"
                                     rows={4}
-                                    placeholder="Descreva brevemente sua necessidade"
+                                    placeholder="Conte brevemente sua demanda"
                                     className="mt-2 w-full rounded-md border border-white/10 bg-header-secundary/70 px-4 py-3 text-sm tracking-normal text-header-text-primary placeholder:text-header-text-primary/40"
                                     required
                                 />
@@ -169,7 +169,7 @@ export default function Contact() {
                     </form>
                     <div className="relative h-full min-h-70 overflow-hidden rounded-2xl border border-header-primary/10 bg-white/70 shadow-[0_25px_50px_rgba(24,25,35,0.12)] sm:min-h-90 lg:min-h-0">
                         <iframe
-                            title="Mapa de localizacao"
+                            title="Mapa de localização"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.7502364780617!2d-47.402727399999996!3d-20.5573977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b0a88580bf1369%3A0xdfb042b67033f63!2sR.%20Maria%20Martins%20de%20Ara%C3%BAjo%2C%20728%20-%20Jardim%20Lima%2C%20Franca%20-%20SP%2C%2014403-117!5e0!3m2!1spt-BR!2sbr!4v1777820978645!5m2!1spt-BR!2sbr"
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"

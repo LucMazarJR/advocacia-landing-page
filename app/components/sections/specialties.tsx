@@ -49,7 +49,7 @@ export default function Specialties() {
                         Áreas de especialização
                     </span>
                     <h2 className="mt-3 font-cinzel text-2xl sm:text-3xl md:text-4xl">
-                        Foco em excelencia nas principais areas do direito
+                        Foco em excelência nas principais áreas do direito
                     </h2>
                     <p className="mx-auto mt-4 text-xs text-foreground/70 sm:text-sm">
                         Oferecemos soluções jurídicas especializadas e personalizadas para proteger seus direitos e patrimônio em cada etapa da vida.

@@ -3,16 +3,16 @@ export default function Footer() {
         <footer className="mt-20 bg-header-primary text-header-text-primary">
             <div className="mx-auto grid max-w-6xl gap-10 px-6 py-12 text-center sm:py-14 sm:text-left md:grid-cols-4">
                 <div className="space-y-4">
-                    <h3 className="font-cinzel text-lg text-accent-secundary">MAZARAO</h3>
+                    <h3 className="font-cinzel text-lg text-accent-secundary">MAZARÃO</h3>
                     <p className="text-sm text-header-text-primary/70">
-                        Estrutura pronta para voce completar com sua historia, equipe e
-                        diferenciais.
+                        Atuação estratégica em Direito Sucessório, Imobiliário e de Família,
+                        com consultoria preventiva e atendimento dedicado.
                     </p>
                 </div>
                 <div className="space-y-3 text-sm">
-                    <p className="font-semibold tracking-[0.2em] text-accent-secundary">INICIO</p>
+                    <p className="font-semibold tracking-[0.2em] text-accent-secundary">INÍCIO</p>
                     <a className="block text-header-text-primary/70" href="#inicio">
-                        Inicio
+                        Início
                     </a>
                     <a className="block text-header-text-primary/70" href="#sobre">
                         Sobre
@@ -26,14 +26,14 @@ export default function Footer() {
                 </div>
                 <div className="space-y-3 text-sm">
                     <p className="font-semibold tracking-[0.2em] text-accent-secundary">ATENDIMENTO</p>
-                    <p className="text-header-text-primary/70">Seg a Sex: 08:00 - 18:00</p>
-                    <p className="text-header-text-primary/70">Sabado: 08:00 - 12:00</p>
+                    <p className="text-header-text-primary/70">Seg. a Sex.: 08:00 - 18:00</p>
+                    <p className="text-header-text-primary/70">Sábado: 08:00 - 12:00</p>
                     <p className="text-header-text-primary/70">Franca/SP</p>
                 </div>
                 <div className="space-y-3 text-sm">
                     <p className="font-semibold tracking-[0.2em] text-accent-secundary">CONTATO</p>
                     <p className="text-header-text-primary/70">(16) 98202-0132</p>
-                    <p className="text-header-text-primary/70">contato@seuemail.com.br</p>
+                    <p className="text-header-text-primary/70">contato@mazaraoadvocacia.com.br</p>
                     <div className="flex gap-3 pt-2">
                         <span className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 text-xs">
                             IG
