@@ -34,7 +34,7 @@ export default function Footer() {
                     <p className="font-semibold tracking-[0.2em] text-accent-secundary">CONTATO</p>
                     <p className="text-header-text-primary/70">(16) 98202-0132</p>
                     <p className="text-header-text-primary/70">contato@mazaraoadvocacia.com.br</p>
-                    <div className="flex gap-3 pt-2">
+                    <div className="flex justify-center gap-3 pt-2 sm:justify-start">
                         <span className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 text-xs">
                             IG
                         </span>
