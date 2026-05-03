@@ -27,27 +27,27 @@ const FRONTS = [
 export default function About() {
     return (
         <section className="bg-[radial-gradient(1000px_700px_at_0%_0%,rgba(184,168,138,0.16),transparent)]">
-            <div className="mx-auto max-w-6xl px-6 py-20">
+            <div className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
                 <header className="max-w-3xl">
                     <span className="text-xs font-semibold uppercase tracking-[0.4em] text-accent-primary">
                         Sobre o escritorio
                     </span>
-                    <h1 className="mt-4 font-cinzel text-4xl text-header-primary md:text-5xl">
+                    <h1 className="mt-4 font-cinzel text-3xl text-header-primary sm:text-4xl md:text-5xl">
                         Mazarão Advocacia
                     </h1>
-                    <p className="mt-4 text-base text-foreground/70">
+                    <p className="mt-4 text-sm text-foreground/70 sm:text-base">
                         Atuacao estrategica e personalizada para proteger direitos e
                         patrimônios com segurança e clareza.
                     </p>
                 </header>
 
-                <div className="mt-12 grid gap-10 md:grid-cols-[1.2fr_0.8fr]">
-                    <div className="space-y-6 text-base text-foreground/80">
+                <div className="mt-12 grid gap-8 md:grid-cols-[1.2fr_0.8fr]">
+                    <div className="space-y-6 text-sm text-foreground/80 sm:text-base">
                         {PARAGRAPHS.map((paragraph) => (
                             <p key={paragraph}>{paragraph}</p>
                         ))}
                     </div>
-                    <aside className="space-y-6">
+                    <aside className="hidden space-y-6 md:block">
                         <div className="rounded-2xl border border-header-primary/10 bg-white/80 p-6 shadow-[0_20px_40px_rgba(24,25,35,0.1)]">
                             <h2 className="font-cinzel text-xl text-header-primary">
                                 Areas de atuacao

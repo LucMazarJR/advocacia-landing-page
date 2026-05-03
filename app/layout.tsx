@@ -30,7 +30,7 @@ export default function DashboardLayout({
         <html className={`${cinzel.variable} ${inter.variable}`}>
             <body className="bg-background font-inter text-foreground">
                 <Header />
-                <main className="pt-24">{children}</main>
+                <main className="pt-20 sm:pt-24 md:pt-20 lg:pt-24">{children}</main>
                 <Footer />
             </body>
         </html>

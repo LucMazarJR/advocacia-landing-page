@@ -86,26 +86,26 @@ export default function Contact() {
             id="contato"
             className="relative bg-[linear-gradient(135deg,rgba(230,222,220,0.6),rgba(240,240,245,0.9))]"
         >
-            <div className="mx-auto max-w-6xl px-6 py-20">
+            <div className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
                 <div className="text-center">
-                    <span className="text-xs font-semibold uppercase tracking-[0.4em] text-accent-primary">
+                    <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-accent-primary sm:text-xs sm:tracking-[0.4em]">
                         Contato
                     </span>
-                    <h2 className="mt-3 font-cinzel text-3xl md:text-4xl">
+                    <h2 className="mt-3 font-cinzel text-2xl sm:text-3xl md:text-4xl">
                         Entre em contato conosco
                     </h2>
-                    <p className="mx-auto mt-4 max-w-2xl text-sm text-foreground/70">
+                    <p className="mx-auto mt-4 max-w-2xl text-xs text-foreground/70 sm:text-sm">
                         Estrutura pronta para formulario e mapa. Basta conectar o envio e
                         adicionar seu endereco.
                     </p>
                 </div>
-                <div className="mt-12 grid gap-8 md:grid-cols-[1.1fr_0.9fr]">
+                <div className="mt-12 grid gap-6 sm:gap-8 lg:grid-cols-[1.1fr_0.9fr]">
                     <form
                         onSubmit={handleSubmit}
-                        className="rounded-2xl bg-header-primary p-8 text-header-text-primary shadow-[0_25px_50px_rgba(0,0,0,0.2)]"
+                        className="rounded-2xl bg-header-primary p-6 text-header-text-primary shadow-[0_25px_50px_rgba(0,0,0,0.2)] sm:p-8"
                     >
                         <div className="grid gap-4">
-                            <label className="text-xs uppercase tracking-[0.2em] text-accent-secundary">
+                            <label className="text-[10px] uppercase tracking-[0.18em] text-accent-secundary sm:text-xs sm:tracking-[0.2em]">
                                 Nome
                                 <input
                                     name="name"
@@ -115,7 +115,7 @@ export default function Contact() {
                                     required
                                 />
                             </label>
-                            <label className="text-xs uppercase tracking-[0.2em] text-accent-secundary">
+                            <label className="text-[10px] uppercase tracking-[0.18em] text-accent-secundary sm:text-xs sm:tracking-[0.2em]">
                                 E-mail
                                 <input
                                     name="email"
@@ -125,7 +125,7 @@ export default function Contact() {
                                     required
                                 />
                             </label>
-                            <label className="text-xs uppercase tracking-[0.2em] text-accent-secundary">
+                            <label className="text-[10px] uppercase tracking-[0.18em] text-accent-secundary sm:text-xs sm:tracking-[0.2em]">
                                 Telefone
                                 <input
                                     name="phone"
@@ -138,7 +138,7 @@ export default function Contact() {
                                     required
                                 />
                             </label>
-                            <label className="text-xs uppercase tracking-[0.2em] text-accent-secundary">
+                            <label className="text-[10px] uppercase tracking-[0.18em] text-accent-secundary sm:text-xs sm:tracking-[0.2em]">
                                 Mensagem
                                 <textarea
                                     name="message"
@@ -152,7 +152,7 @@ export default function Contact() {
                         <button
                             type="submit"
                             disabled={isSending}
-                            className="mt-6 w-full rounded-md bg-accent-primary px-6 py-3 text-xs font-semibold uppercase tracking-[0.2em] text-header-primary cursor-pointer disabled:cursor-not-allowed disabled:opacity-70"
+                            className="mt-6 w-full rounded-md bg-accent-primary px-6 py-3 text-[10px] font-semibold uppercase tracking-[0.18em] text-header-primary cursor-pointer disabled:cursor-not-allowed disabled:opacity-70 sm:text-xs sm:tracking-[0.2em]"
                         >
                             {isSending ? 'Enviando...' : 'Enviar mensagem'}
                         </button>
@@ -167,7 +167,7 @@ export default function Contact() {
                             </p>
                         )}
                     </form>
-                    <div className="relative h-full overflow-hidden rounded-2xl border border-header-primary/10 bg-white/70 shadow-[0_25px_50px_rgba(24,25,35,0.12)]">
+                    <div className="relative h-full min-h-70 overflow-hidden rounded-2xl border border-header-primary/10 bg-white/70 shadow-[0_25px_50px_rgba(24,25,35,0.12)] sm:min-h-90 lg:min-h-0">
                         <iframe
                             title="Mapa de localizacao"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.7502364780617!2d-47.402727399999996!3d-20.5573977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b0a88580bf1369%3A0xdfb042b67033f63!2sR.%20Maria%20Martins%20de%20Ara%C3%BAjo%2C%20728%20-%20Jardim%20Lima%2C%20Franca%20-%20SP%2C%2014403-117!5e0!3m2!1spt-BR!2sbr!4v1777820978645!5m2!1spt-BR!2sbr"

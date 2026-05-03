@@ -26,7 +26,7 @@ function NavElement(props: navItem) {
 
 export default function HeaderNav() {
     return (
-        <nav className="flex gap-8 text-sm tracking-[0.2em]">
+        <nav className="hidden items-center gap-6 text-xs tracking-[0.18em] lg:flex lg:gap-8 lg:text-sm lg:tracking-[0.2em]">
             {NAV_ITEMS.map((item) => (
                 <NavElement {...item} key={item.href} />
             ))}

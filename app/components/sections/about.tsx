@@ -20,15 +20,15 @@ export default function About() {
             id="sobre"
             className="bg-[radial-gradient(900px_600px_at_10%_0%,rgba(184,168,138,0.12),transparent)]"
         >
-            <div className="mx-auto max-w-6xl items-center gap-12 px-6 py-20">
+            <div className="mx-auto max-w-6xl items-center gap-12 px-6 py-16 sm:py-20">
                 <div className="space-y-6">
-                    <span className="text-xs font-semibold uppercase tracking-[0.4em] text-accent-primary">
+                    <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-accent-primary sm:text-xs sm:tracking-[0.4em]">
                         Sobre
                     </span>
-                    <h2 className="font-cinzel text-3xl md:text-4xl">
+                    <h2 className="font-cinzel text-2xl sm:text-3xl md:text-4xl">
                         Mazarão Advocacia com atuação sólida e personalizada
                     </h2>
-                    <div className="space-y-4 text-base text-foreground/70">
+                    <div className="space-y-4 text-sm text-foreground/70 sm:text-base">
                         <p>
                             O escritório MAZARÃO ADVOCACIA destaca-se pela atuação estratégica
                             e altamente qualificada na prestação de serviços jurídicos,
@@ -45,13 +45,13 @@ export default function About() {
                         {PRACTICE_AREAS.map((area) => (
                             <span
                                 key={area}
-                                className="rounded-full border border-header-primary/10 bg-white/70 px-3 py-1 text-xs uppercase tracking-[0.2em] text-header-primary"
+                                className="rounded-full border border-header-primary/10 bg-white/70 px-3 py-1 text-[10px] uppercase tracking-[0.2em] text-header-primary sm:text-xs"
                             >
                                 {area}
                             </span>
                         ))}
                     </div>
-                    <ul className="grid gap-3 text-sm text-foreground/70 sm:grid-cols-2">
+                    <ul className="grid gap-3 text-xs text-foreground/70 sm:grid-cols-2 sm:text-sm">
                         {HIGHLIGHTS.map((item) => (
                             <li key={item} className="flex gap-2">
                                 <span className="mt-1 h-2 w-2 rounded-full bg-accent-primary" />
@@ -61,7 +61,7 @@ export default function About() {
                     </ul>
                     <Link
                         href="/sobre"
-                        className="inline-flex rounded-md bg-header-primary px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-accent-secundary"
+                        className="inline-flex rounded-md bg-header-primary px-6 py-3 text-xs font-semibold uppercase tracking-[0.2em] text-accent-secundary sm:text-sm"
                     >
                         Conheca o escritorio
                     </Link>
