@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Hero() {
     return (
         <section id="inicio" className="relative overflow-hidden">
@@ -6,14 +8,13 @@ export default function Hero() {
             <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 md:grid-cols-[1.1fr_0.9fr] md:py-28">
                 <div className="space-y-6">
                     <span className="text-xs font-semibold uppercase tracking-[0.4em] text-accent-primary">
-                        Advocacia estrategica
+                        Advocacia estratégica
                     </span>
-                    <h1 className="font-cinzel text-4xl leading-tight md:text-5xl">
-                        Defendendo seus direitos com excelencia e compromisso
+                    <h1 className="font-cinzel leading-tight text-5xl">
+                        Defendendo seus direitos com excelencia
                     </h1>
                     <p className="max-w-xl text-base text-foreground/70">
-                        Estrutura pronta para voce preencher com a sua narrativa, suas
-                        conquistas e o diferencial do escritorio.
+                        Atuação especializada em Direito Sucessório, Imobiliário, de Família e Consultoria Jurídica, oferecendo suporte completo para proteção patrimonial e resolução eficiente de conflitos.
                     </p>
                     <div className="flex flex-wrap gap-4">
                         <a
@@ -31,15 +32,12 @@ export default function Hero() {
                     </div>
                     <div className="flex items-center gap-6 text-xs uppercase tracking-[0.3em] text-header-primary/70">
                         <span>Atendimento personalizado</span>
-                        <span>Etica e confianca</span>
                     </div>
                 </div>
                 <div className="relative">
                     <div className="absolute -right-10 top-8 h-24 w-24 rounded-full border border-header-primary/15" />
-                    <div className="relative aspect-[4/5] w-full rounded-[28px] border border-header-primary/10 bg-white/60 shadow-[0_30px_60px_rgba(24,25,35,0.15)] backdrop-blur">
-                        <div className="flex h-full w-full items-center justify-center text-xs uppercase tracking-[0.4em] text-header-primary/60">
-                            Foto principal
-                        </div>
+                    <div className="relative aspect-square w-full backdrop-blur bg-none">
+                        <Image alt='luciano-advogado' src={"/images/luciano-perfil.jpeg"} fill className='rounded-[28px] shadow-[0_30px_60px_rgba(24,25,35,0.15)]'></Image>
                     </div>
                 </div>
             </div>
