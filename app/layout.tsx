@@ -17,8 +17,55 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-    title: '',
-    description: '',
+    title: {
+        default: 'Luciano Mazarão Advocacia',
+        template: '%s | Luciano Mazarão Advocacia',
+    },
+    description:
+        'Advogado em Franca/SP com atuação em Direito Sucessório, Imobiliário, de Família e Consultoria Jurídica. Atendimento presencial e online.',
+    keywords: [
+        'advogado em Franca',
+        'advogado Franca SP',
+        'Luciano Mazarão Advocacia',
+        'direito sucessório Franca',
+        'direito imobiliário Franca',
+        'direito de família Franca',
+        'consultoria jurídica Franca',
+        'inventário Franca',
+        'regularização de imóveis Franca',
+    ],
+    authors: [{ name: 'Luciano Neves Mazarão' }],
+    metadataBase: new URL('https://mazaraoadvocacia.com.br'),
+    openGraph: {
+        title: 'Luciano Mazarão Advocacia',
+        description:
+            'Advogado em Franca/SP com atuação em Direito Sucessório, Imobiliário, de Família e Consultoria Jurídica.',
+        url: '/',
+        siteName: 'Luciano Mazarão Advocacia',
+        locale: 'pt_BR',
+        type: 'website',
+        images: [
+            {
+                url: '/images/luciano-perfil.jpeg',
+                alt: 'Luciano Mazarão Advocacia',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Luciano Mazarão Advocacia',
+        description:
+            'Advogado em Franca/SP com atuação em Direito Sucessório, Imobiliário, de Família e Consultoria Jurídica.',
+        images: ['/images/luciano-perfil.jpeg'],
+    },
+    robots: {
+        index: true,
+        follow: true,
+    },
+    other: {
+        'geo.region': 'BR-SP',
+        'geo.placename': 'Franca',
+    },
 }
 
 export default function DashboardLayout({

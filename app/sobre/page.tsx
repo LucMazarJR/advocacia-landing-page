@@ -1,4 +1,33 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
+
+export const metadata: Metadata = {
+    title: 'Sobre Luciano Mazarão Advocacia',
+    description:
+        'Conheça o escritório Luciano Mazarão Advocacia, sua atuação e metodologia em Direito Sucessório, Imobiliário, de Família e Consultoria Jurídica.',
+    alternates: {
+        canonical: '/sobre',
+    },
+    openGraph: {
+        title: 'Sobre | Luciano Mazarão Advocacia',
+        description:
+            'Atuação estratégica e atendimento humanizado em Direito Sucessório, Imobiliário, de Família e Consultoria Jurídica.',
+        url: '/sobre',
+        images: [
+            {
+                url: '/images/luciano-perfil.jpeg',
+                alt: 'Luciano Mazarão Advocacia',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Sobre | Luciano Mazarão Advocacia',
+        description:
+            'Atuação estratégica e atendimento humanizado em Direito Sucessório, Imobiliário, de Família e Consultoria Jurídica.',
+        images: ['/images/luciano-perfil.jpeg'],
+    },
+}
 
 const PARAGRAPHS = [
     'O escritório Luciano Mazarão Advocacia destaca-se pela atuação estratégica, ética e altamente qualificada na prestação de serviços jurídicos, oferecendo soluções seguras, personalizadas e alinhadas às necessidades de cada cliente.',
