@@ -26,11 +26,11 @@ export default function About() {
                         Sobre
                     </span>
                     <h2 className="font-cinzel text-2xl sm:text-3xl md:text-4xl">
-                        Mazarão Advocacia com atuação sólida e personalizada
+                        Luciano Mazarão Advocacia com atuação sólida e personalizada
                     </h2>
                     <div className="space-y-4 text-sm text-foreground/70 sm:text-base">
                         <p>
-                            O escritório MAZARÃO ADVOCACIA destaca-se pela atuação estratégica
+                            O escritório Luciano Mazarão Advocacia destaca-se pela atuação estratégica
                             e altamente qualificada na prestação de serviços jurídicos,
                             oferecendo soluções seguras e alinhadas às necessidades de cada
                             cliente.

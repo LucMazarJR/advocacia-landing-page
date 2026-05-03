@@ -1,12 +1,12 @@
 import Link from 'next/link'
 
 const PARAGRAPHS = [
-    'O escritório MAZARÃO ADVOCACIA destaca-se pela atuação estratégica, ética e altamente qualificada na prestação de serviços jurídicos, oferecendo soluções seguras, personalizadas e alinhadas às necessidades de cada cliente.',
+    'O escritório Luciano Mazarão Advocacia destaca-se pela atuação estratégica, ética e altamente qualificada na prestação de serviços jurídicos, oferecendo soluções seguras, personalizadas e alinhadas às necessidades de cada cliente.',
     'Sob a direção do Dr. Luciano Neves Mazarão, advogado inscrito na OAB/SP nº 412.077, o escritório possui sólida atuação nas áreas de Direito Sucessório, Direito Imobiliário e Direito de Família, além de consultoria jurídica especializada, com foco na prevenção de riscos e na proteção patrimonial.',
     'Dentre suas principais frentes de atuação, destacam-se a condução de inventários judiciais e extrajudiciais, planejamento sucessório, regularização de imóveis, demandas possessórias e questões familiares, sempre com abordagem técnica apurada e comprometida com a eficiência e segurança jurídica.',
-    'O escritório MAZARÃO ADVOCACIA adota uma metodologia baseada na análise criteriosa e individualizada de cada caso, buscando não apenas a resolução eficaz de conflitos, mas também a estruturação jurídica preventiva, evitando litígios e assegurando estabilidade às relações jurídicas e patrimoniais de seus clientes.',
+    'O escritório Luciano Mazarão Advocacia adota uma metodologia baseada na análise criteriosa e individualizada de cada caso, buscando não apenas a resolução eficaz de conflitos, mas também a estruturação jurídica preventiva, evitando litígios e assegurando estabilidade às relações jurídicas e patrimoniais de seus clientes.',
     'Com atendimento próximo e humanizado, o escritório preza pela clareza na comunicação e pela condução responsável de cada demanda, garantindo confiança, transparência e excelência em todas as etapas.',
-    'Seja para organização patrimonial, regularização imobiliária, questões familiares ou consultoria jurídica, o escritório MAZARÃO ADVOCACIA está preparado para oferecer suporte jurídico de alto nível, com comprometimento, discrição e resultados consistentes.',
+    'Seja para organização patrimonial, regularização imobiliária, questões familiares ou consultoria jurídica, o escritório Luciano Mazarão Advocacia está preparado para oferecer suporte jurídico de alto nível, com comprometimento, discrição e resultados consistentes.',
 ]
 
 const PRACTICE_AREAS = [
@@ -33,7 +33,7 @@ export default function About() {
                         Sobre o escritório
                     </span>
                     <h1 className="mt-4 font-cinzel text-3xl text-header-primary sm:text-4xl md:text-5xl">
-                        Mazarão Advocacia
+                        Luciano Mazarão Advocacia
                     </h1>
                     <p className="mt-4 text-sm text-foreground/70 sm:text-base">
                         Atuação estratégica e personalizada para proteger direitos e

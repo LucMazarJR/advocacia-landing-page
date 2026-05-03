@@ -3,7 +3,7 @@ export default function Footer() {
         <footer className="mt-20 bg-header-primary text-header-text-primary">
             <div className="mx-auto grid max-w-6xl gap-10 px-6 py-12 text-center sm:py-14 sm:text-left md:grid-cols-4">
                 <div className="space-y-4">
-                    <h3 className="font-cinzel text-lg text-accent-secundary">MAZARÃO</h3>
+                    <h3 className="font-cinzel text-lg text-accent-secundary">LUCIANO MAZARÃO</h3>
                     <p className="text-sm text-header-text-primary/70">
                         Atuação estratégica em Direito Sucessório, Imobiliário e de Família,
                         com consultoria preventiva e atendimento dedicado.

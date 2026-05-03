@@ -11,12 +11,12 @@ export default function Header() {
                     src="/logo.png"
                     width={64}
                     height={64}
-                    alt="logo-advocacia-mazarao"
+                    alt="logo-luciano-mazarao-advocacia"
                     className="h-12 w-12 sm:h-14 sm:w-14 lg:h-16 lg:w-16"
                 />
                 <div className="text-accent-secundary">
                     <h1 className="font-cinzel text-xl font-bold sm:text-2xl lg:text-3xl">
-                        MAZARÃO
+                        LUCIANO MAZARÃO
                     </h1>
                     <h2 className="font-inter text-[10px] font-light tracking-[0.18em] sm:text-xs sm:tracking-[0.22em] lg:text-sm">
                         ADVOCACIA & CONSULTORIA JURÍDICA
