@@ -6,7 +6,7 @@ import Services from "./components/sections/services";
 import Specialties from "./components/sections/specialties";
 
 export const metadata: Metadata = {
-    title: "Advogado em Franca/SP",
+    title: "Dr. Luciano Mazarão",
     description:
         "Luciano Mazarão Advocacia oferece atendimento em Direito Sucessório, Imobiliário, de Família e Consultoria Jurídica em Franca/SP.",
     keywords: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
         canonical: "/",
     },
     openGraph: {
-        title: "Advogado em Franca/SP | Luciano Mazarão Advocacia",
+        title: "Dr. Luciano Mazarão | Luciano Mazarão Advocacia",
         description:
             "Atuação em Direito Sucessório, Imobiliário, de Família e Consultoria Jurídica em Franca/SP.",
         url: "/",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Advogado em Franca/SP | Luciano Mazarão Advocacia",
+        title: "Dr. Luciano Mazarão | Luciano Mazarão Advocacia",
         description:
             "Atuação em Direito Sucessório, Imobiliário, de Família e Consultoria Jurídica em Franca/SP.",
         images: ["/images/luciano-perfil.jpeg"],
@@ -44,35 +44,49 @@ export const metadata: Metadata = {
 
 const structuredData = {
     "@context": "https://schema.org",
-    "@type": "LegalService",
-    name: "Luciano Mazarão Advocacia",
-    url: "https://mazaraoadvocacia.com.br",
-    telephone: "+55 16 98202-0132",
-    email: "contato@mazaraoadvocacia.com.br",
-    areaServed: {
-        "@type": "City",
-        name: "Franca",
-        address: {
-            "@type": "PostalAddress",
-            addressLocality: "Franca",
-            addressRegion: "SP",
-            addressCountry: "BR",
+    "@graph": [
+        {
+            "@type": "LegalService",
+            "@id": "https://mazaraoadvocacia.com.br/#legal",
+            name: "Luciano Mazarão Advocacia",
+            url: "https://mazaraoadvocacia.com.br",
+            telephone: "+55 16 98202-0132",
+            email: "contato@mazaraoadvocacia.com.br",
+            areaServed: {
+                "@type": "City",
+                name: "Franca",
+                address: {
+                    "@type": "PostalAddress",
+                    addressLocality: "Franca",
+                    addressRegion: "SP",
+                    addressCountry: "BR",
+                },
+            },
+            serviceType: [
+                "Direito Sucessório",
+                "Direito Imobiliário",
+                "Direito de Família",
+                "Consultoria Jurídica",
+                "Direito Possessório",
+            ],
+            founder: {
+                "@type": "Person",
+                name: "Luciano Neves Mazarão",
+                jobTitle: "Advogado",
+                identifier: "OAB/SP 412.077; OAB/MG 238.571",
+            },
+            image: "https://mazaraoadvocacia.com.br/images/luciano-perfil.jpeg",
+            logo: "https://mazaraoadvocacia.com.br/logo.png",
         },
-    },
-    serviceType: [
-        "Direito Sucessório",
-        "Direito Imobiliário",
-        "Direito de Família",
-        "Consultoria Jurídica",
-        "Direito Possessório",
+        {
+            "@type": "WebSite",
+            "@id": "https://mazaraoadvocacia.com.br/#website",
+            url: "https://mazaraoadvocacia.com.br",
+            name: "Luciano Mazarão Advocacia",
+            alternateName: "Mazarão Advocacia",
+            publisher: { "@id": "https://mazaraoadvocacia.com.br/#legal" },
+        },
     ],
-    founder: {
-        "@type": "Person",
-        name: "Luciano Neves Mazarão",
-        jobTitle: "Advogado",
-        identifier: "OAB/SP 412.077; OAB/MG 238.571",
-    },
-    image: "https://mazaraoadvocacia.com.br/images/luciano-perfil.jpeg",
 };
 
 export default function Home() {

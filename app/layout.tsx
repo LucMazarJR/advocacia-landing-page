@@ -21,6 +21,7 @@ export const metadata: Metadata = {
         default: 'Luciano Mazarão Advocacia',
         template: '%s | Luciano Mazarão Advocacia',
     },
+    applicationName: 'Luciano Mazarão Advocacia',
     description:
         'Advogado em Franca/SP com atuação em Direito Sucessório, Imobiliário, de Família e Consultoria Jurídica. Atendimento presencial e online.',
     keywords: [
@@ -36,6 +37,11 @@ export const metadata: Metadata = {
     ],
     authors: [{ name: 'Luciano Neves Mazarão' }],
     metadataBase: new URL('https://mazaraoadvocacia.com.br'),
+    icons: {
+        icon: [{ url: '/favicon.ico', type: 'image/x-icon' }],
+        apple: [{ url: '/logo.png', type: 'image/png' }],
+        shortcut: '/favicon.ico',
+    },
     openGraph: {
         title: 'Luciano Mazarão Advocacia',
         description:
